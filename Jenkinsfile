@@ -5,6 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                echo 'clone repo'
+                sh 'rm -rf jankinstest'
                sh 'git clone git@github.com:Akhilleshgoswami/jankinstest.git'
             
             }}
