@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                echo 'clone repo'
-                sh 'python ex.py' 
+                sh 'python3 ex.py' 
                
                 sh 'git clone https://github.com/Akhilleshgoswami/jankinstest'
             
