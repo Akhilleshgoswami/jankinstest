@@ -20,7 +20,7 @@ pipeline {
             }}
              stage('deploy') {
             steps {
-                echo 'Hello World'
+                echo 'Hello Worlll'
             }}
     }
 }
